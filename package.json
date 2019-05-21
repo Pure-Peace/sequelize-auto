@@ -1,24 +1,23 @@
 {
-  "name": "sequelize-auto",
-  "version": "0.4.29",
-  "description": "Automatically generate bare sequelize models from your database.",
+  "name": "egg-sequelize-auto-ts",
+  "version": "1.2.0",
+  "description": "In you eggjs project,Automatically generate bare sequelize models from your database .",
   "main": "index",
   "keywords": [
-    "mysql",
-    "postgres",
+    "egg",
+    "typescript",
     "sequelize",
-    "sequelizejs",
-    "mapper"
+    "auto"
   ],
   "bin": {
-    "sequelize-auto": "bin/sequelize-auto"
+    "egg-sequelize-auto-ts": "bin/sequelize-auto"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize-auto.git"
+    "url": "https://github.com/abiuDoIT/sequelize-auto"
   },
   "bugs": {
-    "url": "https://github.com/sequelize/sequelize-auto/issues"
+    "url": "https://github.com/abiuDoIT/sequelize-auto/issues"
   },
   "nyc": {
     "exclude": [
