@@ -17,13 +17,13 @@ npm i @types/sequelize
 ## typescript example
 ###### In you eggjs project root
 ```
-./node_modules/.bin/egg-sequelize-ts-auto -d shop -h localhost -p 3306 -u root -x 1234 --dialect mysql -o app/model -z -g model
+./node_modules/.bin/egg-sequelize-ts-auto -d database -h localhost -p 3306 -u root -x 1234 --dialect mysql -o app/model -z -g model
 ```
 ###### install global npm
 ```
-  egg-sequelize-ts-auto -d shop -h localhost -p 3306 -u root -x 1234 --dialect mysql -o app/model -z -g model
+  egg-sequelize-ts-auto -d database -h localhost -p 3306 -u root -x 1234 --dialect mysql -o app/model -z -g model
 ```
-`-z` for typescript , `-g shopModel` load model at `ctx.shopModel`
+`-z` for typescript , `-g model` load model at `ctx.model`
 
 you will get some ts file in app/model
 
