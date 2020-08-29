@@ -1,7 +1,7 @@
 {
-  "name": "egg-sequelize-auto-ts",
-  "version": "1.4.0",
-  "description": "In you eggjs project,Automatically generate bare sequelize models from your database .",
+  "name": "egg-sequelize-ts-auto",
+  "version": "2.0.0",
+  "description": "egg.js Typescript 自动生成sequelize model文件",
   "main": "index",
   "keywords": [
     "egg",
@@ -10,14 +10,14 @@
     "auto"
   ],
   "bin": {
-    "egg-sequelize-auto-ts": "bin/sequelize-auto"
+    "egg-sequelize-ts-auto": "bin/sequelize-auto"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abiuDoIT/sequelize-auto"
+    "url": "https://github.com/liuhuanhui/sequelize-auto"
   },
   "bugs": {
-    "url": "https://github.com/abiuDoIT/sequelize-auto/issues"
+    "url": "https://github.com/liuhuanhui/sequelize-auto/issues"
   },
   "nyc": {
     "exclude": [
@@ -44,7 +44,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "Daniel Durante <me@danieldurante.com>",
+  "author": "liuhuanhui <huanhui.boy@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.5",
