@@ -1,6 +1,6 @@
 {
   "name": "egg-sequelize-ts-auto",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "egg.js Typescript 自动生成sequelize model文件",
   "main": "index",
   "keywords": [
