@@ -1,6 +1,6 @@
 {
-  "name": "egg-sequelize-ts-auto",
-  "version": "2.0.0",
+  "name": "egg-sequelize-v6-ts-auto",
+  "version": "1.0.0",
   "description": "egg.js sequelize v6 model generator for Typescript.",
   "main": "index",
   "keywords": [
