@@ -1,7 +1,7 @@
 {
   "name": "egg-sequelize-ts-auto",
-  "version": "1.0.2",
-  "description": "egg.js Typescript 自动生成sequelize model文件",
+  "version": "2.0.0",
+  "description": "egg.js sequelize v6 model generator for Typescript.",
   "main": "index",
   "keywords": [
     "egg",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liuhuanhui/sequelize-auto"
+    "url": "https://github.com/Pure-Peace/sequelize-auto"
   },
   "bugs": {
-    "url": "https://github.com/liuhuanhui/sequelize-auto/issues"
+    "url": "https://github.com/Pure-Peace/sequelize-auto/issues"
   },
   "nyc": {
     "exclude": [
@@ -44,7 +44,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "liuhuanhui <huanhui.boy@gmail.com>",
+  "author": "Pure-Peace <940857703@qq.com>",
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.5",
